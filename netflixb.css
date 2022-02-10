@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.img-tv {
+  size: 100%;
+}
+
+body {
+  width: 103.95%;
+  background-attachment: 100%;
+  font-family: sans-serif;
+  color: white;
+  scroll-margin-bottom: block;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0px auto;
+}
+
+header img {
+  width: 146px;
+  height: 46px;
+  display: flex;
+  align-self: flex-start;
+ 
+}
+
+
+
+
+
+.header {
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1388px;
+  top: 28px;
+  left: 56px;
+  height: 400px;
+}
+
+.header img{   padding-left: 8px;}
+
+
+
+.header select{
+position: absolute;
+height: 35px;
+width: 107px;
+background-color: rgb(161, 161, 161);
+font-size:14.5px;
+margin-left: 1070px;
+border-radius: 1px;
+border-color: white;
+background:rgba(44, 42, 42, 0.411);
+color:white;
+
+
+
+}
+
+
+
+
+.enter {
+  position: absolute;
+  display: inline-block;
+  justify-content: flex-end;
+margin-left: 1200px;
+margin-top: 2px;
+  background-color: #E50914;
+  color: white;
+  
+  font-size: 18px;
+  text-decoration: none;
+  padding: 4px 12px;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 24px;
+  width: 48px;
+  
+}
+
+.main {
+  height: 700px;
+
+  background: url("img/bg.jpg") center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.main span {
+  font-size: 26px;
+}
+
+.main p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.main-child {
+  margin-top: 0px;
+  z-index: 1;
+
+  display: grid;
+  justify-items: center;
+}
+
+.form-cta {
+  display: grid;
+  grid-template-columns: 450px 200px;
+  height: 61px;
+  margin-top: 30px;
+}
+
+.form-cta input {
+  padding: 23px 18px;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-radius: 3px;
+  border: none;
+
+}
+
+.button {
+  
+  background-color:#E50914;
+  font-size: 21px;
+  font-family: sans-serif;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+}
+
+.form-cta button::after {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 20px;
+  background: url("img/seta.svg");
+  margin-left: 20px;
+}
+
+.main h1 {
+  font-size: 53px;
+  max-width: 750px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gradient {
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.section {
+  border-top: 8px solid rgb(51, 48, 48);
+
+  background: black;
+  padding: 4rem 0;
+
+  border-bottom: 8px solid rgb(51, 48, 48);
+}
+
+.section h1 {
+  position: absolute;
+  margin-top: 100px;
+  font-size: 50px;
+  margin-bottom: 16px;
+}
+
+.section p {
+  position: absolute;
+  font-size: 24px;
+  margin-top: 200px;
+  max-width: 500px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+}
+
+.tv img {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+
+  z-index: 3;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 2;
+  position: relative;
+  background-size: 100%;
+  padding-bottom: 100px;
+}
+
+.logo {
+}
+
+.section-b {
+  background: black;
+  padding: 4rem 0;
+
+  border-bottom: 8px solid rgb(51, 48, 48);
+}
+
+.section-b {
+  background: black;
+  padding: 0.001rem 0;
+}
+
+.section-b img {
+  position: relative;
+  padding-right: 610px;
+  height: 390px;
+  padding-bottom: 10px;
+}
+
+.section-b h1 {
+  position: absolute;
+  margin-top: 100px;
+  font-size: 50px;
+  margin-bottom: 16px;
+  max-width: 450px;
+  padding-left: 590px;
+}
+
+.section-b p {
+  position: absolute;
+  margin-top: 100px;
+  font-size: 50px;
+  margin-top: 230px;
+  max-width: 550px;
+  font-size: 26px;
+  padding-left: 590px;
+}
+
+body {
+  background-color: black;
+}
+
+.section-c {
+  background-color: black;
+}
+
+.section-c h1 {
+  position: absolute;
+  padding-top: 100px;
+  font-size: 46px;
+  max-width: 550px;
+}
+
+.section-c p {
+  position: absolute;
+  padding-top: 180px;
+  font-size: 25px;
+  max-width: 450px;
+}
+
+
+
+
+.section-c video{
+
+position: relative;
+display: block;
+align-items: center;
+justify-content:center ;
+padding-bottom: 100px;
+padding-left: 700px;
+padding-top: 70px;
+max-width: 400px;
+}
+
+
+
+.section-c img{
+
+position: absolute;
+z-index: 1;
+padding-left: 590px;
+padding-top: 10px;
+
+}

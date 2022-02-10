@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  
+  overflow-x: hidden;
+}
+
+.bg {
+ 
+}
+
+
+
+.centro img{
+
+
+
+}
+
+
+
+
+.centro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 100%;
+  z-index: 1;
+  
+}
+
+.formulario {
+  position: absolute;
+  z-index: 2;
+  height: 700px;
+  width: 445px;
+  background-color: rgba(158, 139, 139, 0);
+  opacity: 100%;
+  margin-bottom: 330px;
+  
+}
+
+.formulario h1 {
+  padding-left: 61px;
+  padding-top: 80px;
+  font-size: 32.5px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  z-index: 2;
+}
+
+.formulario input {
+  z-index: 4;
+  margin-top: 140px;
+  margin-left: 61px;
+  width: 310px;
+  height: 45px;
+  background-color: rgb(66, 61, 61);
+  position: absolute;
+  border-radius: 4px;
+  border-color:transparent;
+  font-family: sans-serif;
+  color: rgb(168, 166, 166);
+  font-size: 15px;
+}
+
+.senha input {
+  z-index: 4;
+  margin-top: 210px;
+  margin-left: 61px;
+  width: 310px;
+  height: 45px;
+  background-color: rgb(66, 61, 61);
+  position: absolute;
+  border-radius: 4px;
+  border-color:solid rgb(66, 61, 61) ;
+  font-family: sans-serif;
+  color: rgb(168, 166, 166);
+}
+
+.dark {
+  z-index: 1;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 660px;
+  width: 450px;
+  background-color: black;
+  opacity: 0.75;
+  border-radius: 4px;
+  border-color: black;
+  
+  margin-top: 25px;
+}
+
+.formulario button {
+  position: absolute;
+  
+  margin-top: 305px;
+  background-color: rgb(240, 0, 0);
+  z-index: 4;
+  font-family: sans-serif;
+  width: 310px;
+  height: 45px;
+  margin-left: 61px;
+  color: white;
+  font-size: 19px;
+  border-color: rgb(240, 0, 0);
+  border-radius: 4px;
+  
+}
+
+.check input {
+  position: absolute;
+  z-index: 4;
+  max-height: 20px;
+  margin-top: 362px;
+  max-width: 21px;
+  border-radius: 4px solid white;
+  background-color: rgb(136, 135, 135);;
+}
+
+.formulario h2{
+position: absolute;
+color: rgb(168, 166, 166);
+z-index: 3;
+font-family: sans-serif;
+font-size: 12.5px;
+margin-top: 366px;
+margin-left: 88px;
+
+
+}
+
+
+
+
+
+.facebook{
+
+z-index: 3;
+position: absolute;
+height: 23px;
+width: 30px;
+margin-top: 430px;
+margin-left: 55px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formulario h3{
+
+z-index: 3;
+position: absolute;
+color: rgb(168, 166, 166);
+font-family: sans-serif;
+font-size: 12.2px;
+margin-top: 366px;
+margin-left: 270px;
+text-decoration: none;
+
+}
+
+.form{
+z-index: 3;
+
+position: absolute;
+color: rgb(168, 166, 166);
+text-decoration: none;
+margin-top: 455px;
+font-family: sans-serif;
+font-size: 16px;
+margin-left: 60px;
+}
+
+
+.formulario h4{    
+
+
+  z-index: 3;
+  position: absolute;
+  color: rgb(168, 166, 166);
+  text-decoration: none;
+  margin-top: 525px;
+  font-family: sans-serif;
+  font-size: 12.5px;
+  margin-left: 60px;
+  max-width: 350px;
+
+}
+
+
+.formulario h5{
+
+z-index: 4;
+position: absolute;
+text-decoration: none;
+color:rgb(14, 126, 255);
+margin-left: 260px;
+margin-top: 539.5px;
+font-size: 13px;
+font-family: sans-serif;
+
+
+
+}
+
+.formulario h6{
+
+  z-index: 3;
+  position: absolute;
+  height: 23px;
+  width: 300px;
+  margin-top: 435px;
+  margin-left: 92px;
+   font-family: sans-serif;
+   font-size: 13px;
+   color: rgb(136, 135, 135);
+
+}
+
+
+
+.formulario p{
+
+z-index: 3;
+position: absolute;
+color: rgb(136, 135, 135);
+font-family: sans-serif;
+font-size: 17px;
+margin-top: 485px;
+margin-left: 60px;
+
+
+
+
+}
+
+
+.formulario span{
+
+  z-index: 3;
+  position: absolute;
+  color: white;
+  font-family: sans-serif;
+  font-size: 17px;
+  margin-top: 485px;
+  margin-left: 179px;
+  
+  
+  
+  
+  }
+
+.dark2{
+
+  z-index: 1;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  height: 275px;
+  width: 100%;
+  margin-top: 870px;
+  background-color: black;
+  opacity: 0.71;
+  
+  
+
+
+
+
+
+}
+
+
+.dark2 h1{
+
+z-index: 3;
+position: absolute;
+color: rgb(109, 104, 104);
+font-family: sans-serif;
+font-size: 16px;
+margin-top: 35px;
+margin-left: 170px;
+
+
+
+
+
+}
+
+
+
+
+.dark2 h2{
+
+display: flex;
+flex-direction: row;
+
+  z-index: 3;
+  position: absolute;
+  color: rgb(109, 104, 104);
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-top: 95px;
+  margin-left: 170px;
+  
+
+
+}
+
+
+.dark2 h3{
+
+ 
+    z-index: 3;
+    position: absolute;
+    color: rgb(109, 104, 104);
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 95px;
+    margin-left: 450px;
+    
+  
+  
+  }
+    
+
+  .dark2 h4{
+
+ 
+    z-index: 3;
+    position: absolute;
+    color: rgb(109, 104, 104);
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 95px;
+    margin-left: 700px;
+    
+  
+  
+  }
+
+
+  .dark2 h5{
+
+ 
+    z-index: 3;
+    position: absolute;
+    color: rgb(109, 104, 104);
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 95px;
+    margin-left: 920px;
+    
+  
+  
+  }
+
+
+
+  .dark2 h6{
+
+ 
+    z-index: 3;
+    position: absolute;
+    color: rgb(109, 104, 104);
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 135px;
+    margin-left: 170px;
+    
+  
+  
+  }
+
+  .dark2 p{
+
+ 
+    z-index: 3;
+    position: absolute;
+    color: rgb(109, 104, 104);
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 135px;
+    margin-left: 450px;
+  
+  
+  }
+
+
+
+.dark2 select{
+
+  position: absolute;
+  height: 35px;
+  width: 127px;
+  background-color: rgb(161, 161, 161);
+  font-size:14.5px;
+  margin-left: 180px;
+  border-radius: 1px;
+  border-color: white;
+  background:rgba(44, 42, 42, 0.411);
+  color:white;
+  margin-top: 200px;
+
+}
+
+
+.header {
+  position: absolute;
+  padding-left: 42px;
+  padding-top: 24px;
+  z-index: 3;
+}
+
+.gradient {
+  z-index: 1;
+
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(8, 8, 8, 0) 60%,
+    rgba(8, 8, 8, 0.8) 100%
+  );
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
